@@ -1,0 +1,32 @@
+# Python
+pycache/
+__pycache__
+*.py[cod]
+*.egg-info/
+.eggs/
+.DS_Store
+.ipynb_checkpoints
+.python-version
+test.py
+
+# Virtual Environments
+.venv
+venv/
+env/
+.poetry/
+
+# Airflow specific
+airflow_home/
+airflow.db
+airflow.cfg
+unittests.cfg
+logs/
+webserver_config.py
+
+# IDE & Editors
+.vscode/
+.idea/
+
+# Secrets
+.env
+ca-certificates.crt

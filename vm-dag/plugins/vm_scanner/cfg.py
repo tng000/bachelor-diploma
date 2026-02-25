@@ -1,0 +1,21 @@
+# Airflow Variables
+GLB_TRANSPORT_MODE_VAR = "GLB_TRANSPORT_MODE_VAR"
+
+# Airflow Connections
+DB_CONN = "DB_CONN"
+NODE_CREDS_CONN = "NODE_CREDS_CONN"
+GUEST_CREDS_CONN = "GUEST_CREDS_CONN"
+
+# Другие настройки
+DEF_SSH_PORT = 22
+
+TEXT_ENC = "utf-8"
+RM_ENC = "utf-8"
+
+TIMEOUT_SSH_INIT = 10
+
+T_OUT_DISC = 60
+T_OUT_SYS = 60
+T_OUT_HW = 60
+T_OUT_SOFT = 120
+

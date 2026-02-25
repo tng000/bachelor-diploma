@@ -1,0 +1,25 @@
+[project]
+name = "vm-dag"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "tng00"},
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "apache-airflow==3.1.2",
+    "apache-airflow-providers-postgres[psycopg]>=6.4.1",
+    "paramiko>=4.0.0",
+    "pyvmomi>=9.0.0.0",
+    "psycopg>=3.2.12",
+    "poetry-plugin-export>=1.7.1",
+    "uuid-utils>=0.11.1",
+    "pywinrm (>=0.5.0,<0.6.0)",
+    "pyjwt (==2.10.1)",
+    "psycopg2 (>=2.9.12,<3.0.0)",
+    "pytest (>=9.0.3,<10.0.0)"
+]
+
+[tool.poetry]
+package-mode = false
